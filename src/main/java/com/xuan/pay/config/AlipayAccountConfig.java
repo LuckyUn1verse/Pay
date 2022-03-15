@@ -4,9 +4,7 @@ import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
-/**
- * Created by 廖师兄
- */
+
 @Component
 @ConfigurationProperties(prefix = "alipay")
 @Data
